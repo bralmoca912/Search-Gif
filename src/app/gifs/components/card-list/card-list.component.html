@@ -1,0 +1,14 @@
+<div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-x-5 gap-y-20">
+    @for (gif of gifs; track $index) {
+    <div class="text-center grid justify-center">
+        <div class="grid justify-items-center">
+            <img class="max-h-52" [src]="gif.images.downsized_medium.url" [alt]="gif.title">
+        </div>
+        <div class="border-b-4 border-teal-600">
+            <p>
+                {{gif.title}}
+            </p>
+        </div>
+    </div>
+    }
+</div>

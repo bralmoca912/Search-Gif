@@ -14,7 +14,7 @@ export class GifsService {
   public gifList: Gif[] = [];
   private _tagHistory: string[] = []
   private apikey: string = 'UxYbRhsZI6yILRVkYgMjqZTBo4Vt8QcZ';
-  private serviceUrl: string = 'http://api.giphy.com/v1/gifs';
+  private serviceUrl: string = 'https://api.giphy.com/v1/gifs';
 
   // Constructor //
   // La clase HttpClient es un servicio de Angular para realizar peticiones Http. Permite hacer solicitudes get, post, put, delete, etc., hacia servidores remotos.

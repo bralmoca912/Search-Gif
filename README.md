@@ -1,27 +1,40 @@
-# SearchGif
+# Search-Gif
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+Proyecto creado en [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+<br>
+## Page del proyecto
+https://bralmoca912.github.io/Search-Gif/
+<br>
 
-## Development server
+## Finalidad del proyecto
+Search Gif es una aplicación web diseñada para ofrecer una experiencia rápida y conveniente al buscar GIFs a través de la API de Giphy. Permite a los usuarios realizar búsquedas de GIFs y mantener un historial de las últimas 10 búsquedas, facilitando el acceso a búsquedas anteriores en cualquier momento. Los GIFs se presentan en una cuadrícula optimizada, ofreciendo una visualización clara y agradable.
+<br>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Demo
+Puedes probar una demostración en vivo de Ohm Wizard aquí.
+<a href="https://bralmoca912.github.io/Search-Gif/" target="_blank">
+<h4>Buscador</h4>
+	<img style="margin-top: -30px" src="https://i.ibb.co/yyfHYgR/Search-Gif-vita-general.png" width="700" height="auto">
+</a>
+<br>
 
-## Code scaffolding
+## Funcionalidades
+1. Búsqueda de GIFs: Permite a los usuarios buscar GIFs utilizando la API de Giphy.
+2. Historial de Búsquedas: Mantiene un historial de las últimas 10 búsquedas realizadas para fácil acceso y referencia.
+3. Visualización en Cuadrícula: Presenta los GIFs en una cuadrícula optimizada para una visualización clara y agradable.
+4. Acceso Rápido a Búsquedas Anteriores: Facilita la visualización de búsquedas anteriores directamente desde el historial.
+<br>
+ 
+## Tecnologías Utilizadas
+- Angular 17.3.3
+- API de GIPHY Developers
+- TypeScript
+- Tailwind
+- HTML5
+- CSS3
+<br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Autor
+Bryam Montero
+- Correo: bmontero912@gmail.com
+- Cuenta de GitHub: https://github.com/bralmoca912

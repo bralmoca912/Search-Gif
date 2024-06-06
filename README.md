@@ -2,7 +2,7 @@
 
 Proyecto creado en [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
 <br>
-## Page del proyecto
+## Enlace del proyecto
 https://bralmoca912.github.io/Search-Gif/
 <br>
 

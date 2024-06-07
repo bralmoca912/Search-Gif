@@ -1,6 +1,6 @@
 <!--********** component **********-->
 <div>
-    <div class="bg-black h-screen shadow-xl px-3 sm:w-60 w-40 overflow-x-hidden transition-transform duration-300">
+    <div class="bg-i h-screen shadow-xl px-3 sm:w-60 w-40 overflow-x-hidden transition-transform duration-300">
         <div class="space-y-4 sm:space-y-6 mt-5">
             <h1 class="font-bold text-sm sm:text-xl text-center">
                 Search Gifs<span class="text-teal-600">.</span>
@@ -10,7 +10,7 @@
                     alt="Avatar Giphy" />
                 <div>
                     <p class="text-xs text-gray-500 text-center">Gif actual:</p>
-                    <h2 class="font-medium text-xs sm:text-base text-center text-teal-500">
+                    <h2 class="font-medium text-xs sm:text-base text-center text-teal-600">
                         @for (tag of tags; track $index) {
                         @if ($index === 0) {
                         {{tag}}
@@ -29,10 +29,10 @@
             </div>
 
             <!--********** Historial de búsqueda **********-->
-            <div id="menu" class="flex flex-col space-y-2">
+            <div id="menu" class="flex flex-col space-y-1">
                 @for (tag of tags; track $index) {
                 <button (click)="searchTag(tag)"
-                    class="flex items-center text-sm text-start font-medium text-gray-400 bg-teal-950 sm:py-2 py-1 sm:px-2 px-1 hover:bg-teal-500 hover:text-white hover:text-base rounded-md transition duration-150 ease-in-out">
+                    class="c-btn flex items-center text-sm text-start font-medium sm:py-1.5 py-0.5 sm:px-2 px-1 rounded-md transition duration-150 ease-in-out">
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="sm:w-5 sm:h-5 w-3.5 h-3.5 fill-current inline-block sm:mr-2 mr-1" viewBox="0 0 16 16">
